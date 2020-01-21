@@ -17,7 +17,7 @@ def init():
 # 实现正向匹配算法中的切词方法
 def cut_words(raw_sentence, word_dic):
     # 统计词典中最长的词
-    max_length = max(len(word) for word in words_dic)
+    max_length = max(len(word) for word in word_dic)
     sentence = raw_sentence.strip()
     # 统计序列长度
     word_length = len(sentence)

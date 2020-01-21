@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45424dbf-cfd1-4573-bd77-ab2af1591bc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/分词/FMM/FMM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/分词/dic/dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分词/BMM/BMM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分词/BMM/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分词/FMM/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/分词/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NLP_module_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NLP_module_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/分词/FMM/FMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/分词/FMM/FMM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,16 +18,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NLP_module_demo$FMM.coverage" NAME="FMM Coverage Results" MODIFIED="1579427951787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分词/FMM" />
+    <SUITE FILE_PATH="coverage/NLP_module_demo$Bi_MM.coverage" NAME="Bi-MM Coverage Results" MODIFIED="1579599920668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分词/Bi-MM" />
+    <SUITE FILE_PATH="coverage/NLP_module_demo$FMM.coverage" NAME="FMM Coverage Results" MODIFIED="1579599574159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分词/FMM" />
+    <SUITE FILE_PATH="coverage/NLP_module_demo$BMM.coverage" NAME="BMM Coverage Results" MODIFIED="1579494669002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分词/BMM" />
     <SUITE FILE_PATH="coverage/NLP_module_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1577005656525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/分词/FMM/FMM.py">
+        <entry file="file://$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="229">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,14 +59,19 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/分句/中文分句.md" />
         <option value="$PROJECT_DIR$/分词/FMM.py" />
+        <option value="$PROJECT_DIR$/分词/BMM/BMM.py" />
+        <option value="$PROJECT_DIR$/分词/BMM/__init__.py" />
+        <option value="$PROJECT_DIR$/分词/Bi-MM/test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/分词/BMM/test.py" />
         <option value="$PROJECT_DIR$/分词/FMM/FMM.py" />
+        <option value="$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1978" />
     <option name="y" value="11" />
     <option name="width" value="1942" />
@@ -81,18 +96,19 @@
             <path>
               <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="分句" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
               <item name="分词" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
               <item name="分词" type="462c0819:PsiDirectoryNode" />
-              <item name="dic" type="462c0819:PsiDirectoryNode" />
+              <item name="Bi-MM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="分词" type="462c0819:PsiDirectoryNode" />
+              <item name="BMM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -114,7 +130,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\private-project\NLP_module_demo\分词\FMM" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\private-project\NLP_module_demo\分词\BMM" />
       <recent name="E:\private-project\NLP_module_demo\分词\dic" />
       <recent name="E:\private-project\NLP_module_demo\分词\FMM" />
     </key>
@@ -131,7 +151,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FMM">
+  <component name="RunManager" selected="Python.Bi-MM">
+    <configuration name="BMM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_module_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分词/BMM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分词/BMM/BMM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Bi-MM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_module_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分词/Bi-MM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FMM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP_module_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,7 +242,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Bi-MM" />
         <item itemvalue="Python.FMM" />
+        <item itemvalue="Python.BMM" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -196,24 +262,24 @@
       <workItem from="1575369820331" duration="14477000" />
       <workItem from="1576997882809" duration="42000" />
       <workItem from="1576998113134" duration="4635000" />
-      <workItem from="1579424173547" duration="3539000" />
+      <workItem from="1579424173547" duration="11266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8216000" />
+    <option name="totallyTimeSpent" value="15943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -271,9 +337,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/分词/FMM/FMM.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -283,16 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#17#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -328,10 +384,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/分词/BMM/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分词/BMM/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分词/FMM/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Programs/Python/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="319" selection-start-line="319" selection-end-line="319" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/分词/FMM/FMM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="679">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分词/BMM/BMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
