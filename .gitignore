@@ -2,3 +2,5 @@ test.py
 test.txt
 .DS_Store
 .idea/
+wordEmbedding/data/douluo_cut_word.txt
+wordEmbedding/data/douluo_utf8.txt
