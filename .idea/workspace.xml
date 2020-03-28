@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45424dbf-cfd1-4573-bd77-ab2af1591bc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/分词/BMM/BMM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/分词/BMM/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/分词/FMM/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/分词/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NLP_module_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NLP_module_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/分词/FMM/FMM.py" beforeDir="false" afterPath="$PROJECT_DIR$/分词/FMM/FMM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -57,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/分句/中文分句.md" />
         <option value="$PROJECT_DIR$/分词/FMM.py" />
@@ -68,14 +70,15 @@
         <option value="$PROJECT_DIR$/分词/BMM/test.py" />
         <option value="$PROJECT_DIR$/分词/FMM/FMM.py" />
         <option value="$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1978" />
-    <option name="y" value="11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1042" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="210" />
+    <option name="y" value="142" />
+    <option name="width" value="1260" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectId" id="1UT9fGFeYnMCQVvTKAbdPQwvVYF" />
   <component name="ProjectLevelVcsManager">
@@ -93,29 +96,6 @@
               <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="分词" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="分词" type="462c0819:PsiDirectoryNode" />
-              <item name="Bi-MM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="分词" type="462c0819:PsiDirectoryNode" />
-              <item name="BMM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NLP_module_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NLP_module_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="分词" type="462c0819:PsiDirectoryNode" />
-              <item name="FMM" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -127,6 +107,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -263,17 +244,18 @@
       <workItem from="1576997882809" duration="42000" />
       <workItem from="1576998113134" duration="4635000" />
       <workItem from="1579424173547" duration="11266000" />
+      <workItem from="1585403411002" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15943000" />
+    <option name="totallyTimeSpent" value="16015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11721612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,7 +269,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -345,20 +327,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$PROJECT_DIR$/分句/中文分句.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -387,26 +356,12 @@
     <entry file="file://$PROJECT_DIR$/分词/BMM/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/分词/BMM/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/分词/BMM/test.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/分词/FMM/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://D:/Programs/Python/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Programs/Python/Python36/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/分词/FMM/FMM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="679">
@@ -424,10 +379,17 @@
     <entry file="file://$PROJECT_DIR$/分词/Bi-MM/Bi-MM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
