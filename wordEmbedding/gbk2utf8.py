@@ -25,8 +25,8 @@
 # @  Blog:https://blog.csdn.net/zzzzlei123123123
 # -*- coding: utf-8 -*-
 def gbk2utf8():
-    file_out = open('douluo_utf8.txt', 'w', encoding="utf-8")
-    with open('douluo.txt', 'r', encoding="GB18030") as file_object:
+    file_out = open('data/douluo_utf8.txt', 'w', encoding="utf-8")       # 输出文件路径
+    with open('data/douluo.txt', 'r', encoding="GB18030") as file_object:
         for line in file_object:
             line = line.strip()
             file_out.write(line + "\n")

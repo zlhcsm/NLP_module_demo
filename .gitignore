@@ -7,3 +7,4 @@ wordEmbedding/data/douluo_utf8.txt
 */data/
 !/data/README.md
 .idea/workspace.xml
+*/model/

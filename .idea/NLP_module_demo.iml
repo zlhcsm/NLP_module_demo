@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/分词/Bi-MM" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/分词/FMM" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (text-classification-cnn-rnn) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="R User Library" level="project" />
     <orderEntry type="library" name="R Skeletons" level="application" />
